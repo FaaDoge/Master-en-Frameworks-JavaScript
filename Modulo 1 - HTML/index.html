@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!--Define que usaremos html5-->
+<html lang="es">
+<head> <!--metadatos titulo imagenes etc-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master de frameworks</title>
+</head>
+<body>
+
+<div class="textos">
+    <h1>REPASO DE HTML EZ</h1>
+    <h2>Bienvenido</h2>
+<p>
+    PARRAFO <br>SALTO DE LINEA
+    <hr>salto de linea dibujada
+    <strong>NEGRILLA</strong>
+    <em>TEXTO EN CURSIVA</em>
+    <span>NO HACE NADA LA ETIQUEDA SPAN</span>
+    <i>TEXTO EN CURSIVA nro 2</i>
+    <blockquote>Contenido es como una cita</blockquote>
+</p>
+</div>
+<div class="listas">
+<!--LISTAS-->
+<!--desordenada PUNTOS--> 
+<ul>
+    <Li>MAnzana</Li>
+    <Li>Banana</Li>
+    <Li>Pera</Li>
+</ul>
+<!--Ordenada NUMEROS--> 
+<ol>
+    <li>MAnzana</li>
+    <li>Banana</li>
+    <li>Pera</li>
+</ol>
+</div>
+<div class="imagenes">
+    <H3>imagen 1</H3>
+<img src="./img/1.jpg" title="titulo imagen" alt="descripcion imagen de medicina" width="100px" height="auto" >
+</div>
+
+
+<div class="tablas">
+    <h2>TABLAS</h2>
+
+    <table border="1">
+        <tr> <!--FILA-->
+            <th>NOMBRE</th> <!--TH ES PARA CABECERA-->
+            <th>APELLIDOS</th>
+            <th>PAIS</th>
+        </tr>
+        <tr> <!--FILA-->
+            <td>Fabricio</td> <!--COLUMNA-->
+            <td colspan="2">Sanchez</td> <!--COL SPAN ES PARA EL TAM DE LA COLUMNA-->
+            <td>Bolivia</td>
+        </tr>
+    </table>
+
+</div>
+
+<div class="FORMULRIOS">
+
+    <h3>FORMULARIO</h3>
+    <form action=""> <!--ACTION ES PARA EL ENVIO DE DATOS ASI COMO METHOD PARA PHP-->
+        <p><label for="nombre">Nombre</label> <!--Es for es para indicar a que input pertenece-->
+            <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
+         </p>
+        <p>
+            <label for="descripcion">Descripcion</label>
+            <textarea name="descripcion" id="desc"></textarea>    
+        </p>   
+        <input type="radio" name="genero" id="genero" value="hombre"> Hombre <br>
+        <input type="radio" name="genero" id="genero" value="mujer"> Mujer <br>    
+        <input type="radio" name="genero" id="genero" value="Nada"> Nada <br>
+        <p>
+            <select name="Carrera" id="carrera">
+
+                <option value="sistemas">sistemas</option>
+                <option value="nini">nini</option>
+            </select>
+        </p>  
+        
+        <input type="submit" value="enviar" > <!--para hacer envios-->
+    </form>
+
+</div>
+</body>
+<footer>
+</footer>
+</html>
